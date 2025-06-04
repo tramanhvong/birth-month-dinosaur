@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.question {
+  font-size: 25px;
+}
+
+.selector {
+  font-size: 25px;
+}
+
+.submitButton {
+  border-radius: 3px;
+  background-color: #EF6F6C;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
