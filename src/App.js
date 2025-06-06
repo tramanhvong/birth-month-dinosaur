@@ -24,6 +24,9 @@ function App() {
       </header>
 
       <div className="body">
+        <audio controls autoplay loop>
+          <source src="/audio/yoshi.mp3" type="audio/mpeg" />
+        </audio>
         <div className="selectMonth">
           <label htmlFor="month" className="question">Select your birth month: </label>
           <select className="selector" id="month" name="month" value={month} onChange={(e) => setMonth(e.target.value)}>            
